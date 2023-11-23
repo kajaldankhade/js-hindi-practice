@@ -1,0 +1,14 @@
+const accountId = 144553
+let accountEmail = "kajal@google.com"
+var accountPassword = "12345"
+accountCity = "Nagpur"
+let accountState;
+//accountId = 2  
+// not allowed cant change any const keyword
+
+accountEmail = "kd@kd.com"
+accountPassword = "56789"
+accountCity = "Jaipur"
+
+console.log(accountId);
+console.table([accountId, accountPassword, accountEmail, accountCity, accountState]);
